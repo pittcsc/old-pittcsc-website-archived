@@ -17,5 +17,5 @@ highlighter: pygments
 
 # Assets
 sass:
-  sass_dir: assets/css/_partials
+  sass_dir: assets/css
   style: :compressed
