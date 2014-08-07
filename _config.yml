@@ -1,0 +1,21 @@
+# Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+permalink: /blog/:year/:month/:title
+timezone: America/New_York
+
+# Formatting
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - :no_intra_emphasis
+    - :autolink
+    - :superscript
+    - :footnotes
+highlighter: pygments
+
+# Assets
+sass:
+  sass_dir: assets/css/_partials
+  style: :compressed
