@@ -1,0 +1,23 @@
+---
+layout: page
+title: Contact Us
+GoogleFormLink: "https://docs.google.com/forms/d/1eNwkgw6DWM_5nIuIv8EtAb1eZJRklYl8ELqJli43NIc/viewform"
+---
+
+<p>We meet every week at 8:00 PM in 5129 Sennott Square. You don't have to be an "official" member to come. All are welcome!</p>
+<p>Want to get on our mailing list? Fill out our <a href={{page.GoogleFormLink}}>Google Form</a>.</p>
+
+<h2>Contact The Club</h2>
+
+<ul>
+{% for contact in site.data.contacts %}
+		<li><a href={{contact.link}}>{{contact.medium}}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Contact The Officers</h2>
+<ul>
+{% for officer in site.data.officers %}
+	<li>{{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a></li>
+{% endfor %}
+</ul>
