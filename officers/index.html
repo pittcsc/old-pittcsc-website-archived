@@ -3,10 +3,8 @@ layout: page
 title: Officers
 ---
 
-<ul>
 {% for officer in site.data.officers %}
 	<img src={{officer.portraitPath}} class=portrait />
 		<h2>{{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a></h2>
 		<p>{{officer.bio}}</p>
 {% endfor %}
-</ul>
