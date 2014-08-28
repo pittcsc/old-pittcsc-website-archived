@@ -2,34 +2,34 @@
   name: Alex LaFroscia
   email: foo@bar.com
   bio: Yo! I'm Alex.
-  portraitPath: "/assets/images/WillPortrait.jpg"
+  portraitPath: "/assets/images/officers/will.jpg"
 
 - title: Vice President
   name: Will Engler
   email: Engler.Will@gmail.com
   bio: "I'm a 4th year student studying computer science and sometimes mathematics. I've worked as a co-op at Rockwell Automation and a research assistant at Pitt's Public Health Dynamics Laboratory. When I graduate, I want to travel the world while running long-distance races and contributing to open source projects."
-  portraitPath: "/assets/images/WillPortrait.jpg"
+  portraitPath: "/assets/images/officers/will.jpg"
 
 - title: Business Manager
   name: Joel Roggeman
-  email: 
+  email:
   bio:
-  portraitPath: "/assets/images/WillPortrait.jpg"
+  portraitPath: "/assets/images/officers/will.jpg"
 
 - title: Education Chair
   name: George Claghorn
-  email: 
+  email:
   bio:
-  portraitPath: "/assets/images/WillPortrait.jpg"
+  portraitPath: "/assets/images/officers/will.jpg"
 
 - title: Networking Chair
   name: Neha Abraham
   email:
   bio:
-  portraitPath: "/assets/images/WillPortrait.jpg"
+  portraitPath: "/assets/images/officers/will.jpg"
 
 - title: Projects Chair
   name: Kurt Mohler
   email:
   bio:
-  portraitPath: "/assets/images/WillPortrait.jpg"
+  portraitPath: "/assets/images/officers/will.jpg"
