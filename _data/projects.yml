@@ -1,5 +1,5 @@
 - name: Unnamed Web App
-  link: example.com
+  link:
   description: Foo bar baz.
   tech: Ruby on Rails
 
@@ -11,7 +11,7 @@
     link: 
   - name: Penetration Testing
     link: 
-  description: A loose confederacy of security projects. We will explore vulnerabilities by writing vulnerable code and then cracking it.
+  description: A loose confederacy of security projects. We will investigate different classes of vulnerabilities by writing vulnerable code and then cracking it.
   tech: "C, x86 Assembly, Python"
 
 - name: Unnamed Hardware Project
