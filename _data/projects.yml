@@ -1,0 +1,20 @@
+- name: Unnamed Web App
+  link: example.com
+  description: Foo bar baz.
+  tech: Ruby on Rails
+
+- name: Exploitation Cookbook
+  subprojects:
+  - name: Systems Security
+    link: https://github.com/Pitt-CSC/stacksmashers
+  - name: Network Security
+    link: 
+  - name: Penetration Testing
+    link: 
+  description: A loose confederacy of security projects. We will explore vulnerabilities by writing vulnerable code and then cracking it.
+  tech: "C, x86 Assembly, Python"
+
+- name: Unnamed Hardware Project
+  link:
+  description:
+  tech: "Beaglebone Black"

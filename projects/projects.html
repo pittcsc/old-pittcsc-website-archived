@@ -1,0 +1,12 @@
+{% for project in site.data.projects %}
+	<h2>{{project.name}}:</h2>
+	
+	{% if project.subprojects %}
+		<p>Source Code:</p>
+		<ul> {% for subproject in project.subprojects%}
+			<li><a href={{subproject.link}}>{{subproject.name}}</a></li>
+		{% endfor %}
+	{% else %}
+		[Source Code](project.link)
+{% endif %}
+{% endfor %}
