@@ -1,0 +1,34 @@
+.masthead {
+  background: linear-gradient(to bottom, darken(#0b5195, 5%),  #236db4);
+  padding: 50px 0;
+
+  .container {
+    width: 375px;
+  }
+  .logo {
+    float: left;
+    margin-right: 25px;
+    position: relative;
+    top: 7px;
+
+    i {
+      color: #fff;
+      font-size: 450%;
+    }
+  }
+  .text {
+    float: left;
+  }
+  h1, h2 {
+    color: #fff;
+    margin: 0;
+  }
+  h1 {
+    font-size: 450%;
+  }
+  h2 {
+    font-size: 125%;
+    font-weight: 100;
+    opacity: 0.5;
+  }
+}
