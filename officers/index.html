@@ -1,39 +1,41 @@
 ---
-layout: page
+layout: default
 title: Officers
 ---
 
-{% for officer in site.data.officers %}
-  {% capture portraitSide %}{% cycle 'left', 'right' %}{% endcapture %}
-  {% if portraitSide == 'left' %}
-    <div class="row">
-      <div class="col-sm-2 col-sm-offset-1">
-        <img src={{officer.portraitPath}} class="img-thumbnail" />
+<div class="container officers">
+  {% for officer in site.data.officers %}
+    {% capture portraitSide %}{% cycle 'left', 'right' %}{% endcapture %}
+    {% if portraitSide == 'left' %}
+      <div class="row">
+        <div class="col-sm-2 col-sm-offset-1">
+          <img src={{officer.portraitPath}} class="img-thumbnail" />
+        </div>
+        <div class="col-sm-8">
+          <h2 class="officer-header">
+            {{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a>
+          </h2>
+          <p>{{officer.bio}}</p>
+        </div>
       </div>
-      <div class="col-sm-8">
-        <h2 class="officer-header">
-          {{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a>
-        </h2>
-        <p>{{officer.bio}}</p>
+    {% else %}
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-1">
+          <h2 class="officer-header">
+            {{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a>
+          </h2>
+          <p>{{officer.bio}}</p>
+        </div>
+        <div class="col-sm-2">
+          <img src={{officer.portraitPath}} class="img-thumbnail" />
+        </div>
       </div>
-    </div>
-  {% else %}
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-1">
-        <h2 class="officer-header">
-          {{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a>
-        </h2>
-        <p>{{officer.bio}}</p>
-      </div>
-      <div class="col-sm-2">
-        <img src={{officer.portraitPath}} class="img-thumbnail" />
-      </div>
-    </div>
-  {% endif %}
+    {% endif %}
 
-  <div class="row">
-    <div class="col-sm-10 col-sm-offset-1">
-      <hr />
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <hr />
+      </div>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>

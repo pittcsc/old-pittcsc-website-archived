@@ -9,9 +9,9 @@ $icon-font-path: '../fonts/bootstrap/';
 $fa-font-path: '../fonts/font_awesome';
 @import 'font_awesome';
 
+// Global styles
 @import 'masthead';
 @import 'mastfoot';
 
-.officer-header {
-  margin-top: 10px;
-}
+// Page- and section-specific styles
+@import 'officers';
