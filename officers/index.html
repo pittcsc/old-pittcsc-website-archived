@@ -3,8 +3,46 @@ layout: page
 title: Officers
 ---
 
+<div class="container">
+
 {% for officer in site.data.officers %}
-	<img src={{officer.portraitPath}} class=portrait />
-		<h2>{{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a></h2>
-		<p>{{officer.bio}}</p>
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+  {% if thecycle == 'odd' %}
+
+  <div class="row">
+    <div class="col-sm-2 col-sm-offset-1">
+      <img src={{officer.portraitPath}} class="img-thumbnail" />
+    </div>
+    <div class="col-sm-8">
+      <h2 class="officer-header">
+        {{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a>
+      </h2>
+      <p>{{officer.bio}}</p>
+    </div>
+  </div>
+
+  {% else %}
+
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-1">
+      <h2 class="officer-header">
+        {{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a>
+      </h2>
+      <p>{{officer.bio}}</p>
+    </div>
+    <div class="col-sm-2">
+      <img src={{officer.portraitPath}} class="img-thumbnail" />
+    </div>
+  </div>
+
+  {% endif %}
+
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <hr />
+    </div>
+  </div>
 {% endfor %}
+
+</div>
