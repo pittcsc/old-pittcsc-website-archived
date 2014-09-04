@@ -1,26 +1,23 @@
 ---
+layout: page
 title: Employment Opportunities
-layout: default
 ---
 
-<div class="container">
-  <p>
-    We currently have {{ site.data.opportunities | size }} Jobs available!
-  </p>
+<p>
+  We currently have {{ site.data.opportunities | size }} Jobs available!
+</p>
 
-  {% for job in site.data.opportunities %}
-    <h2>{{ job.title }}</h2>
-    <p>{{ job.description }}</p>
+{% for job in site.data.opportunities %}
+  <h2>{{ job.title }}</h2>
+  <p>{{ job.description }}</p>
 
-    {% if job.contact.name %}
-      {% if job.contact.email %}
-        Contact: <a href="mailto:{{ job.contact.email }}">{{ job.contact.name }}</a>
-      {% else %}
-        Contact: {{ job.contact.name }}
-      {% endif %}
+  {% if job.contact.name %}
+    {% if job.contact.email %}
+      Contact: <a href="mailto:{{ job.contact.email }}">{{ job.contact.name }}</a>
+    {% else %}
+      Contact: {{ job.contact.name }}
     {% endif %}
+  {% endif %}
 
-    <hr />
-
-  {% endfor %}
-</div>
+  <hr />
+{% endfor %}
