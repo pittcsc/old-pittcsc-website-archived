@@ -1,8 +1,11 @@
 .masthead {
   background: linear-gradient(to bottom, darken(#0b5195, 5%),  #236db4);
-  padding: 50px 0;
+  margin-bottom: 40px;
+  padding: 50px 0 25px;
 
-  .container {
+  .insignia {
+    @extend .container;
+
     width: 375px;
   }
   .logo {
@@ -18,17 +21,51 @@
   }
   .text {
     float: left;
+
+    h1, h2 {
+      color: #fff;
+      margin: 0;
+    }
+    h1 {
+      font-size: 450%;
+    }
+    h2 {
+      font-size: 125%;
+      font-weight: 100;
+      opacity: 0.5;
+    }
   }
-  h1, h2 {
-    color: #fff;
-    margin: 0;
-  }
-  h1 {
-    font-size: 450%;
-  }
-  h2 {
-    font-size: 125%;
-    font-weight: 100;
-    opacity: 0.5;
+  .main-menu {
+    margin-top: 50px;
+
+    ul {
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        margin: 0 25px 0 0;
+        padding: 0;
+      }
+    }
+    a {
+      color: #fff;
+      font-size: 18px;
+      opacity: 0.6;
+      transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -webkit-transition: all 0.15s;
+
+      &:hover {
+        opacity: 1;
+        text-decoration: none;
+      }
+      &:focus, &:active {
+        opacity: 1;
+        text-decoration: underline;
+      }
+    }
   }
 }
