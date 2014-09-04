@@ -1,0 +1,11 @@
+.mastfoot {
+  background: $gray-lighter;
+  color: $gray;
+  margin-top: 40px;
+  padding: 25px 0;
+  text-align: center;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
