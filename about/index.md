@@ -1,8 +1,7 @@
 ---
 layout: page
+title: About Pitt CSC
 ---
-
-# About Pitt CSC
 
 We, the Computer Science Club at the University of Pittsburgh, are a community of computer science and computer engineering students dedicated to honing our craft. We meet regularly to share what we're learning, discuss developments in our field, and build things. [Talk to us](#contact).
 
