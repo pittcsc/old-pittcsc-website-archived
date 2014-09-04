@@ -1,0 +1,23 @@
+---
+
+---
+<h1>Current Projects</h1>
+
+{% for project in site.data.projects %}
+	<h3>{{project.name}}:</h3>
+	<p>{{project.description}}</p>
+	<p>Technologies: {{project.tech}}</p>
+
+	<!--Iterate through sub-project Git repos if applicable -->
+	{% if project.subprojects %}
+		<p>Source Code:</p>
+		<ul> 
+			{% for subproject in project.subprojects%}
+				<li><a href={{subproject.link}}>{{subproject.name}}</a></li>
+			{% endfor %}
+		</ul>
+	{% else %}
+		<p><a href={{project.link}}>Source Code</a></p>
+	{% endif %}
+
+{% endfor %}
