@@ -3,8 +3,6 @@ layout: page
 title: Officers
 ---
 
-<div class="container">
-
 {% for officer in site.data.officers %}
   {% capture portraitSide %}{% cycle 'left', 'right' %}{% endcapture %}
   {% if portraitSide == 'left' %}
@@ -39,5 +37,3 @@ title: Officers
     </div>
   </div>
 {% endfor %}
-
-</div>
