@@ -1,9 +1,13 @@
 ul.meta {
   @extend .clearfix;
-  
+
   margin: -5px 0 0 0;
   padding: 0;
 
+  &.meta-centered {
+    display: inline-block;
+    margin: auto auto;
+  }
   li {
     float: left;
     color: lighten($gray-light, 10%);

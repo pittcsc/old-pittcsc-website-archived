@@ -1,0 +1,17 @@
+.blog {
+  .post {
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    header {
+      margin-bottom: 20px;
+      text-align: center;
+
+      h1 {
+        margin-top: 0;
+      }
+    }
+  }
+}
