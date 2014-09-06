@@ -4,37 +4,44 @@ title: Officers
 ---
 
 <div class="container officers">
-  {% for officer in site.data.officers %}
-    {% capture portraitSide %}{% cycle 'left', 'right' %}{% endcapture %}
-    {% if portraitSide == 'left' %}
-      <div class="row">
-        <div class="col-sm-2 col-sm-offset-1">
-          <img src={{officer.portraitPath}} class="img-thumbnail" />
-        </div>
-        <div class="col-sm-8">
-          <h2 class="officer-header">
-            {{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a>
-          </h2>
-          <p>{{officer.bio}}</p>
-        </div>
-      </div>
-    {% else %}
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-1">
-          <h2 class="officer-header">
-            {{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a>
-          </h2>
-          <p>{{officer.bio}}</p>
-        </div>
-        <div class="col-sm-2">
-          <img src={{officer.portraitPath}} class="img-thumbnail" />
-        </div>
-      </div>
-    {% endif %}
+  <div class="row page-header">
+    <div class="col-sm-10 col-sm-offset-1">
+      <h1>Officers</h1>
 
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1">
-        <hr />
+      <p class="lead">These are the people who run Pitt CSC. They plan meetings, organize projects, connect the club with members of the tech industry, and much more.</p>
+    </div>
+  </div>
+
+  {% for officer in site.data.officers %}
+    <div class="row officer">
+      <div class="col-sm-2 col-sm-offset-1">
+        <img src={{officer.portrait_path}} class="img-responsive img-rounded" />
+      </div>
+      <div class="col-sm-8">
+        <header>
+          <h2 class="name">{{ officer.name }}</h2>
+          <ul class="meta clearfix">
+            <li>{{ officer.title }}</li>
+
+            {% if officer.website %}
+              <li>
+                <a href="{{ officer.website.url }}">
+                  <i class="fa fa-globe"></i> {{ officer.website.name }}
+                </a>
+              </li>
+            {% endif %}
+
+            {% if officer.twitter_username %}
+              <li>
+                <a href="https://twitter.com/{{ officer.twitter_username }}">
+                  <i class="fa fa-twitter"></i> {{ officer.twitter_username }}
+                </a>
+              </li>
+            {% endif %}
+          </ul>
+        </header>
+
+        <p>{{officer.bio}}</p>
       </div>
     </div>
   {% endfor %}
