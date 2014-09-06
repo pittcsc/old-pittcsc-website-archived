@@ -1,5 +1,6 @@
-- title: 'ChronoDono Web Site'
-  description: "Pitt Enactus is looking for experienced web developers to pick up a project that was last year but never finished.  You will be adopting a Ruby on Rails web application as well as an Ember.js app.  Basic knowledge of Ruby on Rails as well as the core concepts of CRUD are required.  Contact Alex LaFroscia for more details."
+- title: 'ChronoDono'
+  category: Web development
+  description: "Pitt Enactus is looking for experienced web developers to pick up a project that was started last year but never finished.  You will be adopting a Ruby on Rails web application as well as an Ember.js app.  Basic knowledge of Ruby on Rails as well as the core concepts of CRUD are required.  Contact Alex LaFroscia for more details."
   contact:
     name: Alex LaFroscia
     email: alex@lafroscia.com
