@@ -11,30 +11,6 @@
       h2.name {
         margin-top: 1px;
       }
-      ul.meta {
-        margin: -5px 0 0 0;
-        padding: 0;
-
-        li {
-          float: left;
-          color: lighten($gray-light, 10%);
-          font-size: $font-size-h4;
-
-          font-weight: 400;
-          list-style: none;
-          margin: 0 25px 0 0;
-        }
-        a {
-          color: lighten($gray-light, 10%);
-
-          &:hover {
-            @include transition(all 0.15s);
-
-            color: $gray;
-            text-decoration: none;
-          }
-        }
-      }
     }
   }
 }

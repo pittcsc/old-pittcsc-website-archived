@@ -1,0 +1,17 @@
+.opportunities {
+  .opportunity {
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    header {
+      margin-bottom: 25px;
+
+      h2 {
+        font-size: $font-size-h3;
+        margin-top: 0;
+      }
+    }
+  }
+}
