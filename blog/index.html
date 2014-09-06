@@ -7,7 +7,7 @@ title: Blog
   <div class="row post">
     <div class="col-sm-10 col-sm-offset-1">
       <header>
-        <h1>{{ post.title }}</h1>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
         <ul class="meta meta-centered">
           <li>{{ post.author }}</li>
           <li>{{ post.date | date: '%A, %B %-d, %Y' }}</li>
