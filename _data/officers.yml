@@ -1,8 +1,12 @@
 - title: President
   name: Alex LaFroscia
-  email: foo@bar.com
-  bio: Yo! I'm Alex.
-  portrait_path: "/assets/images/officers/will.jpg"
+  email: alex@lafroscia.com
+  bio: "I'm a Sophomore CS student and front-end developer working with a company called Mysterious Trousers. Ever since getting an internship with them in high school, I've wanted to build a way for students to pass on their knowledge to other students and to teach people about how much fun programming can be. Last year I started talking about starting the Pitt CSC, and now here we are, less than a year later! I'm so excited to be starting on this venture with such a great group of people and am eager to help out anyone in any way I can."
+  portrait_path: "http://www.gravatar.com/avatar/0983cb5961eb97db23a43045f34a20c8.png"
+  twitter_username: alexlafroscia
+  website:
+    name: alexlafroscia.com
+    url: http://alexlafroscia.com
 
 - title: Vice President
   name: Will Engler
