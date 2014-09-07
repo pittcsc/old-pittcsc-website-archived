@@ -14,7 +14,7 @@
   description: A loose confederacy of security projects. We will investigate different classes of vulnerabilities by writing vulnerable code and then cracking it.
   tech: "C, x86 Assembly, Python"
 
-- name: Unnamed Hardware Project
-  link:
-  description:
-  tech: "Beaglebone Black"
+- name: LED Matrix Display
+  link: http://www.adafruit.com/products/1073
+  description: "For this project, we will solder the matrix driver board, hook the matrix to the Beaglebone, and reprogram the matrix driver board to take input from the Beaglebone. Once we have the display working and programmable through the Beaglebone, we will use it to display information. The Beaglebone connects to the internet, so it can take commands from a client or it can search for information to display (like tech news). We can also make games that can be played on the display with the joystick. The temperature and atmospheric pressure sensor can be used to gather data wherever the device is, while such information about the outdoors can be obtained from the internet, and the two can be displayed side-by-side. The details of this project are not decided yet, and team members will have the opportunity to steer it how they want."
+  tech: "Beaglebone Black, 16x32 Nootropic RGB LED Matrix Kit, temperature and atmospheric pressure sensor chip, joystick."
