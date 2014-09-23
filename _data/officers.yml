@@ -28,7 +28,6 @@
   name: George Claghorn
   email: george.claghorn@gmail.com
   bio:
-  portrait_path: "/assets/images/officers/will.jpg"
   twitter_username: georgeclaghorn
   website:
     url: http://georgeclaghorn.com
@@ -38,7 +37,6 @@
   name: Neha Abraham
   email:
   bio:
-  portrait_path: "/assets/images/officers/will.jpg"
 
 - title: Projects Chair
   name: Kurt Mohler

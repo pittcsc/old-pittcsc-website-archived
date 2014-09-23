@@ -15,7 +15,9 @@ title: Officers
   {% for officer in site.data.officers %}
     <div class="row officer">
       <div class="col-sm-2 col-sm-offset-1">
-        <img src={{officer.portrait_path}} class="img-responsive img-rounded" />
+        {% if officer.portrait_path %}
+          <img src={{officer.portrait_path}} class="img-responsive img-rounded" />
+        {% endif %}
       </div>
       <div class="col-sm-8">
         <header>
