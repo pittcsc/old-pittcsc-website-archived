@@ -2,6 +2,7 @@
 exclude:
   - Gemfile
   - Gemfile.lock
+  - .ruby-version
 permalink: /blog/:year/:month/:title
 timezone: America/New_York
 
