@@ -3,16 +3,14 @@
   description: Foo bar baz.
   tech: Ruby on Rails
 
-- name: Exploitation Cookbook
+- name: Security Project
   subprojects:
-  - name: Systems Security
-    link: https://github.com/Pitt-CSC/stacksmashers
-  - name: Network Security
-    link: 
-  - name: Penetration Testing
-    link: 
-  description: A loose confederacy of security projects. We will investigate different classes of vulnerabilities by writing vulnerable code and then cracking it.
-  tech: "C, x86 Assembly, Python"
+  - name: Asgard
+    link: https://github.com/Pitt-CSC/asgard
+  - name: JCOT
+    link: https://github.com/Pitt-CSC/encryption_project
+  description: These projects deal with various aspects of computer security.  The beginner project is focusing more on developing security auditing tools in Python, while the intermediate group is working on developing a basic encryption program in C, implementing the associated algorithms from scratch.
+  tech: "C, Python"
 
 - name: LED Matrix Display
   link: http://www.adafruit.com/products/1073
