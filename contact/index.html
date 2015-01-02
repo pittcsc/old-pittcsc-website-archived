@@ -11,13 +11,13 @@ GoogleFormLink: "https://docs.google.com/forms/d/1eNwkgw6DWM_5nIuIv8EtAb1eZJRklY
 
 <ul>
 {% for contact in site.data.contacts %}
-	<li><a href={{contact.link}}>{{contact.medium}}</a></li>
+  <li><a href={{contact.link}}>{{contact.medium}}</a></li>
 {% endfor %}
 </ul>
 
 <h2>Contact The Officers</h2>
 <ul>
 {% for officer in site.data.officers %}
-	<li>{{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a></li>
+  <li>{{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a></li>
 {% endfor %}
 </ul>
