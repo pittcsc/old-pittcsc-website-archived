@@ -1,19 +1,21 @@
 Pitt CSC Website
 ================
 
-Website for the Pitt CSC
+Website for the Pitt CSC.
 
 
 Development
 -----------
 
-1. Install dependencies
+1.  Install [Ruby](https://ruby-lang.org).
+
+2.  Install dependencies:
 
     ```
-    bundle exec bundle install
+    bundle install
     ```
 
-2. Run development server
+3.  Run the development server:
 
     ```
     bundle exec jekyll serve
@@ -23,4 +25,4 @@ Development
 Deployment
 ----------
 
-Nothing to do here, just push to `master` at [`pitt-csc/pitt-csc.github.io`](https://github.com/Pitt-CSC/pitt-csc.github.io)
+Push to `master` at [pitt-csc/pitt-csc.github.io on GitHub](https://github.com/Pitt-CSC/pitt-csc.github.io).  The site is hosted on GitHub Pages, and will be automatically built and deployed.
