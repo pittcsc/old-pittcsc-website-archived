@@ -1,5 +1,5 @@
-Pitt CSC Website
-================
+[PittCSC.org](http://pittcsc.org)
+=================================
 
 Website for the Pitt CSC.
 
