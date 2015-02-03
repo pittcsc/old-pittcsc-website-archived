@@ -4,6 +4,7 @@ exclude:
   - Gemfile.lock
   - package.json
   - README.md
+  - CNAME
 permalink: /blog/:year/:month/:title
 timezone: America/New_York
 
