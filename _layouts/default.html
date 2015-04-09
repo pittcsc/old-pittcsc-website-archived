@@ -61,7 +61,10 @@
 
   <footer class="mastfoot">
     <div class="container">
-      <p>Copyright © 2014 Pitt CSC. All rights reserved.</p>
+      {% comment %}
+        Auto-generate the copyright date based on the last build time
+      {% endcomment %}
+      <p>Copyright © {{ site.time | date: "%Y" }} Pitt CSC. All rights reserved.</p>
 
       {% comment %}
         This statement is required by Pitt SORC: http://www.studentaffairs.pitt.edu/sorccertificationguide.
