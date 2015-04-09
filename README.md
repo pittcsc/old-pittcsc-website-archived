@@ -18,7 +18,7 @@ Development
 3.  Run the development server:
 
     ```
-    bundle exec jekyll serve
+    bundle exec jekyll serve --watch
     ```
 
 
