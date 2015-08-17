@@ -1,0 +1,44 @@
+---
+layout: page
+title: Officers
+lead: |
+  These are the people who run the CSC. They plan meetings, organize
+  projects, connect the club with members of the tech industry, and much more.
+permalink: /officers/
+---
+
+{% for officer in site.data.officers %}
+  <div class="row officer">
+    <div class='col-sm-2'>
+      {% if officer.portrait_path %}
+        <img src={{officer.portrait_path}} class="img-responsive img-rounded" />
+      {% endif %}
+    </div>
+    <div class='col-sm-10'>
+      <header>
+        <h2 class="name">{{ officer.name }}</h2>
+        <ul class="meta">
+          <li>{{ officer.title }}</li>
+
+          {% if officer.website %}
+            <li>
+              <a href="{{ officer.website.url }}">
+                <i class="fa fa-globe"></i> {{ officer.website.name }}
+              </a>
+            </li>
+          {% endif %}
+
+          {% if officer.twitter_username %}
+            <li>
+              <a href="https://twitter.com/{{ officer.twitter_username }}">
+                <i class="fa fa-twitter"></i> {{ officer.twitter_username }}
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      </header>
+
+      <p>{{officer.bio}}</p>
+    </div>
+  </div>
+{% endfor %}

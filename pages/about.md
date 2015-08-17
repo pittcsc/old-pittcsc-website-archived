@@ -1,9 +1,10 @@
 ---
 layout: page
 title: About Pitt CSC
+lead: |
+  We are a community of young software developers, scientists and designers dedicated to honing out craft
+permalink: /about/
 ---
-
-We, the Computer Science Club at the University of Pittsburgh, are a community of young software developers, scientists, and designers dedicated to honing our craft. We meet regularly to share what we're learning, discuss developments in our field, and build things. [Talk to us](#contact).
 
 ## What we do
 

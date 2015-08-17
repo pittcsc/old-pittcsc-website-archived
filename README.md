@@ -3,6 +3,17 @@
 
 Website for the Pitt CSC.
 
+Project Structure
+----------------
+
+| Directory   | Purpose |
+| :--------   | :------ |
+| `_drafts`   | Draft blog posts that are not publicly available yet |
+| `_includes` | Sections of reuseable HTML that can be includes on other pages |
+| `_layouts`  | HTML templates that can be used by other HTML files to share structure |
+| `_posts`    | Published blog posts |
+| `assets`    | The home for the HTML/CSS/Fonts/Images that this site uses |
+| `pages`     | Contains all of the "static" pages for the site |
 
 Development
 -----------
@@ -20,7 +31,6 @@ Development
     ```
     bundle exec jekyll serve --watch
     ```
-
 
 Deployment
 ----------
