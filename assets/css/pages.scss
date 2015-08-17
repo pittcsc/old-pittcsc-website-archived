@@ -1,6 +1,11 @@
+$footer-height: 48px;
+$footer-padding: 25px;
+$push-height: $footer-height + (2 * $footer-padding);
+
 body,
 html {
   background: linear-gradient(to bottom, darken(#0b5195, 5%),  #236db4);
+  height: 100%;
 }
 
 .page-header {
@@ -10,6 +15,29 @@ html {
 
   h1 {
     margin-top: 0;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  height: auto !important;
+  margin: 0 auto;
+  margin-bottom: -$push-height;
+  min-height: 100%;
+}
+
+.push {
+  height: $push-height;
+}
+
+.footer {
+  background: $gray-lighter;
+  color: $gray;
+  padding: $footer-padding 0;
+  text-align: center;
+
+  p:last-child {
+    margin-bottom: 0;
   }
 }
 
