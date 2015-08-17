@@ -18,3 +18,6 @@ $fa-font-path: '../fonts/font_awesome';
 // Page- and section-specific styles
 @import 'officers';
 @import 'blog';
+
+// Components
+@import 'components/calendar-event';
