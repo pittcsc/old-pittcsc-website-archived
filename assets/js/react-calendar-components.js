@@ -25,14 +25,19 @@ function extractLocation(string) {
 }
 
 var Event = React.createClass({
+  handleClick: function() {
+    var event = this.props.event;
+    var link = event.link[0].href;
+    window.open(link, '_blank');
+  },
+
   render: function() {
-    console.debug(this.props.event);
     var event = this.props.event;
     var title = event.title.$t;
     var date = extractDate(event.content.$t);
     var location = extractLocation(event.content.$t);
     return (
-      <div className='calendar-event'>
+      <div onClick={this.handleClick} className='calendar-event'>
         <h3 className='title'>{title}</h3>
         <p>{date}</p>
         <p>{location}</p>
