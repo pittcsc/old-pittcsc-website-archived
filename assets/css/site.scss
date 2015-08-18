@@ -7,14 +7,17 @@ $icon-font-path: '../fonts/bootstrap/';
 
 // Font Awesome 4.2.0
 $fa-font-path: '../fonts/font_awesome';
-@import 'font_awesome';
+@import 'font_awesome/font-awesome';
 
 // Global styles
 @import 'masthead';
-@import 'mastfoot';
 @import 'pages';
 @import 'meta';
 
 // Page- and section-specific styles
 @import 'officers';
 @import 'blog';
+
+// Components
+@import 'components/calendar-event';
+@import 'components/card-content';

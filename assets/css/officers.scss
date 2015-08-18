@@ -1,16 +1,14 @@
-.officers {
-  .officer {
-    margin-bottom: 60px;
+.officer {
+  margin-bottom: 60px;
 
-    &:last-child {
-      margin-bottom: 0;
-    }
-    header {
-      margin-bottom: 25px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  header {
+    margin-bottom: 25px;
 
-      h2.name {
-        margin-top: 1px;
-      }
+    h2.name {
+      margin-top: 1px;
     }
   }
 }

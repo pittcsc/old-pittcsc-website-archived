@@ -1,0 +1,26 @@
+.calendar-event {
+  $darker-gray: darken($gray-lighter, 10%);
+
+  background: $gray-lighter;
+  border-bottom: 1px solid $darker-gray;
+  cursor: pointer;
+  padding: 1em;
+
+  &:hover {
+    background: $darker-gray;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .title {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+}
+

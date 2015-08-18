@@ -2,8 +2,14 @@
 layout: default
 ---
 
-<div class="container page">
+<div class="container card-content">
   <h1>{{ page.title }}</h1>
-  
+
+  {% if page.lead %}
+    <p class='lead'>{{ page.lead }}</p>
+  {% endif %}
+
+  <hr />
+
   {{ content }}
 </div>
