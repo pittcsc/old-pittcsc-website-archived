@@ -8,6 +8,10 @@ html {
   height: 100%;
 }
 
+hr {
+  border-top: 1px solid darken($gray-lighter, 10%);
+}
+
 .page-header {
   border-bottom: 0;
   margin-bottom: 40px;
@@ -43,4 +47,22 @@ html {
 
 .section-header {
   font-size: 1.5em;
+}
+
+.event-column {
+  hr {
+    @media (min-width: $screen-sm-min) {
+      display: none;
+    }
+  }
+}
+
+.slackin {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.media-container {
+  font-size: 5em;
+  text-align: center;
 }

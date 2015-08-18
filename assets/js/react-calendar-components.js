@@ -35,12 +35,10 @@ var Event = React.createClass({
     var event = this.props.event;
     var title = event.title.$t;
     var date = extractDate(event.content.$t);
-    var location = extractLocation(event.content.$t);
     return (
       <div onClick={this.handleClick} className='calendar-event'>
         <h3 className='title'>{title}</h3>
         <p>{date}</p>
-        <p>{location}</p>
       </div>
     );
   }
