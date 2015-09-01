@@ -10,42 +10,35 @@
     name: alexlafroscia.com
 
 - title: Vice President
-  name: Will Engler
-  email: Engler.Will@gmail.com
-  bio: "I'm a senior CS student and mediocre banjo player. When I graduate, I want to travel the world while running long-distance races and contributing to open source projects."
-  portrait_path: "/assets/images/officers/will.jpg"
+  name: Pete Mash
+  email: 
+  bio: 
+  portrait_path: 
   website:
-    url: http://willengler.com
-    name: willengler.com
+    url: 
+    name: 
 
 - title: Business Manager
   name: Joel Roggeman
   email: joelroggeman@gmail.com
-  bio: "I'm a junior CS major primarily interested in web application design, though I'm not that good at it yet.  Other than coding, I enjoy running, various games (video/card/tabletop), and music."
+  bio: "I'm a senior CS major primarily interested in web dev and compiler programming.  Other than coding, I enjoy running, baking, gaming, and music."
   portrait_path: "/assets/images/officers/joel.jpg"
   twitter_username: joelroggeman
+  website:
+    url: http://github.com/jroggeman
+    name: My GitHub
 
 - title: Education Chair
-  name: George Claghorn
-  email: george.claghorn@gmail.com
-  bio: I'm a junior Computer Science major interested in all kinds of software development. When I'm not studying, I'm a programmer at <a href="https://basecamp.com">Basecamp</a>.
-  portrait_path: "/assets/images/officers/george.png"
-  twitter_username: georgeclaghorn
+  name: Nicole Daniels
+  email: nld24@pitt.edu
+  bio: 
+  portrait_path: 
+  twitter_username: 
   website:
-    url: http://georgeclaghorn.com
-    name: georgeclaghorn.com
+    url: 
+    name: 
 
-- title: Networking Chair
-  name: Neha Abraham
-  email:
-  bio:
-
-- title: Projects Chair
-  name: Thomas Ferrell
-  email: taf34@pitt.edu
-  bio:
-
-- title: Growth Officer
+- title: Events Chair
   name: Emily Pepke
   email:
-  bio: I'm a sophomore Computer Science major, I'm still new to CS, but I'm learning! When I'm not doing CS things I like video games, and dogs. 
+  bio: 
