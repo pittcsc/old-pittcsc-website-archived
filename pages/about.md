@@ -2,7 +2,7 @@
 layout: page
 title: About Pitt CSC
 lead: |
-  We are a community of young software developers, scientists and designers dedicated to honing out craft
+  We are a community of young software developers, scientists and designers dedicated to honing our craft
 permalink: /about/
 ---
 
