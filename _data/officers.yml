@@ -26,14 +26,13 @@
   twitter_username: joelroggeman
 
 - title: Education Chair
-  name: George Claghorn
-  email: george.claghorn@gmail.com
-  bio: I'm a junior Computer Science major interested in all kinds of software development. When I'm not studying, I'm a programmer at <a href="https://basecamp.com">Basecamp</a>.
-  portrait_path: "/assets/images/officers/george.png"
-  twitter_username: georgeclaghorn
+  name: Nicole Daniels
+  email: nld24@pitt.edu
+  bio: "I'm a junior CS major who loves front-end web development. When I'm not programming, I'm either rooting for the Patriots, channeling my inner Olivia Pope, agreeing that Jon Snow knows nothing, exercising, drawing, playing video games, or DJing."
+  portrait_path: "/assets/images/officers/nicole.jpg"
   website:
-    url: http://georgeclaghorn.com
-    name: georgeclaghorn.com
+    url: http://www.github.com/ComicStix
+    name: Nicole's Github
 
 - title: Networking Chair
   name: Neha Abraham
