@@ -26,17 +26,40 @@
   twitter_username: joelroggeman
   website:
     url: http://github.com/jroggeman
-    name: My GitHub
+    name: Joel's GitHub
 
 - title: Education Chair
   name: Nicole Daniels
   email: nld24@pitt.edu
-  bio: 
-  portrait_path: 
-  twitter_username: 
+  bio: "I'm a junior CS major who loves front-end web development. When I'm not programming, I'm either rooting for the Patriots, channeling my inner Olivia Pope, agreeing that Jon Snow knows nothing, exercising, drawing, playing video games, or DJing."
+  portrait_path: "/assets/images/officers/nicole.jpg"
   website:
     url: 
     name: 
+
+- title: Networking Chair
+  name: Neha Abraham
+  email:
+  bio:
+
+- title: Projects Chair
+  name: Thomas Ferrell
+  email: taf34@pitt.edu
+  bio:
+=======
+    url: http://www.github.com/ComicStix
+    name: Nicole's Github
+
+- title: Networking Chair
+  name: Neha Abraham
+  email:
+  bio:
+
+- title: Projects Chair
+  name: Thomas Ferrell
+  email: taf34@pitt.edu
+  bio:
+>>>>>>> 80021daf24ddc6ffd31f7bfc3285054001b439db
 
 - title: Events Chair
   name: Emily Pepke
