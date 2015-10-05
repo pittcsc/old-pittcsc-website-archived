@@ -5,6 +5,7 @@ $push-height: $footer-height + (2 * $footer-padding);
 body,
 html {
   background: linear-gradient(to bottom, darken(#0b5195, 5%),  #236db4) fixed;
+  font-size: 18px;
   height: 100%;
 }
 
