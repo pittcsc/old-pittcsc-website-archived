@@ -5,11 +5,17 @@ $push-height: $footer-height + (2 * $footer-padding);
 body,
 html {
   background: linear-gradient(to bottom, darken(#0b5195, 5%),  #236db4) fixed;
+  font-size: 18px;
   height: 100%;
 }
 
 hr {
   border-top: 1px solid darken($gray-lighter, 10%);
+}
+
+blockquote {
+  border-left: 5px solid darken($gray-lighter, 10%);
+  font-size: .9em;
 }
 
 .page-header {
@@ -65,4 +71,15 @@ hr {
 .media-container {
   font-size: 5em;
   text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1em;
+
+  .contact-segment {
+    padding: .5em 1em;
+  }
 }
