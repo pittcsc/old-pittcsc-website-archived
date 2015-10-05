@@ -8,6 +8,19 @@ exclude:
 permalink: /blog/:year/:month/:title
 timezone: America/New_York
 
+# Content
+defaults:
+  - scope:
+      path: ''
+      type: jobs
+    values:
+      layout: job
+
+collections:
+  jobs:
+    output: true
+    permalink: /jobs/:path/
+
 # Formatting
 markdown: redcarpet
 redcarpet:
