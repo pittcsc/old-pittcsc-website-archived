@@ -10,12 +10,13 @@
 
 - title: Vice President
   name: Pete Mash
-  email:
-  bio:
-  portrait_path:
+  email: peter@mash.email
+  bio: "I'm a senior CS and Math major, with some experience in data science. I enjoy Ukrainian folk dance and eating food. The CSC has been really helpful in the development of my CS education outside of the classroom, and I'm excited to help connect others with that benefit."
+  portrait_path: "/assets/images/officers/pete.jpg"
+  twitter_username: pete_mash
   website:
-    url:
-    name:
+    url: http://github.com/PeterMash
+    name: Pete's Github
 
 - title: Business Manager
   name: Joel Roggeman
