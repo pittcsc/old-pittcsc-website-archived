@@ -5,18 +5,17 @@
   portrait_path: "/assets/images/officers/alex.jpg"
   twitter_username: alexlafroscia
   website:
-    name: alexlafroscia.com
     url: http://alexlafroscia.com
     name: alexlafroscia.com
 
 - title: Vice President
   name: Pete Mash
-  email: 
-  bio: 
-  portrait_path: 
+  email:
+  bio:
+  portrait_path:
   website:
-    url: 
-    name: 
+    url:
+    name:
 
 - title: Business Manager
   name: Joel Roggeman
@@ -39,5 +38,10 @@
 
 - title: Events Chair
   name: Emily Pepke
-  email:
-  bio: 
+  email: elpepke41@gmail.com
+  bio: "I'm a junior CS major who is interested in web dev and security, and other stuff I haven't actually checked out yet. When I'm not programming I like playing video games (WoW especially) and going on adventures. My goal aside from making the CSC as fun as possible with events, is to help mentor and guide those who need it."
+  portrait_path:  "/assets/images/officers/emily.jpg"
+  twitter_username: EmilyOfSuburbia
+  website:
+      url: http://www.github.com/pepke41
+      name: Emily's Github
