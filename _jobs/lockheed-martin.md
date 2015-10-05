@@ -2,6 +2,7 @@
 title: Lockheed Martin
 contact: Chelsea N. Wise
 phone: 301-548-2392
+last-updated: 2015-10-04 21:00:00
 website: lockheedmartinjobs.com
 email: chelsea.n.wise@lmco.com
 ---

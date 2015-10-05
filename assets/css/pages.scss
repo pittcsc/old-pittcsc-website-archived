@@ -1,6 +1,7 @@
 $footer-height: 48px;
 $footer-padding: 25px;
 $push-height: $footer-height + (2 * $footer-padding);
+$darker-gray: darken($gray-lighter, 10%);
 
 body,
 html {
@@ -10,11 +11,11 @@ html {
 }
 
 hr {
-  border-top: 1px solid darken($gray-lighter, 10%);
+  border-top: 1px solid $darker-gray;
 }
 
 blockquote {
-  border-left: 5px solid darken($gray-lighter, 10%);
+  border-left: 5px solid $darker-gray;
   font-size: .9em;
 }
 
@@ -81,5 +82,17 @@ blockquote {
 
   .contact-segment {
     padding: .5em 1em;
+  }
+}
+
+.job-list-item {
+  border-bottom: 1px solid $darker-gray;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .last-updated {
+    font-size: .85em;
   }
 }
