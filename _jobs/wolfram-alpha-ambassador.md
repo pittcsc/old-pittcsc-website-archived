@@ -3,7 +3,7 @@ title: Wolfram Alpha Student Ambassador
 contact: Samantha Newman
 phone:
 last-updated: 2015-10-12 15:00:00
-website: http://blog.wolfram.com/2015/03/31
+website: blog.wolfram.com/2015/03/31
 email: samanthan@wolfram.com
 ---
 
