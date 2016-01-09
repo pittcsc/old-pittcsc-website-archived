@@ -9,6 +9,8 @@ email: mmatta@beaconhillstaffing.com
 
 I was recently sent information about an opportunity doing contract for a company in Pittsburgh's South Side Works.  If the information below is interesting to you, send a copy of your resume over to Mary at the email address above; she can give you more information and put you in touch with the company.
 
+**Note:** The company treats years in college toward work experience, so don't let that requirement scare you off!
+
 > In this role, you will:
 >
 > - Ensure the logical and systematic conversion of customer/product requirements into finished solutions that acknowledge technical, schedule, and cost constraints
