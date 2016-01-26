@@ -2,7 +2,7 @@
 layout: page
 title: Contact Us
 lead: |
-  We meet every Monday at 8:00 PM in Rm. 5317 in Sennott Square. Additional events can be found on our calendar.
+  We meet every Monday at 8:00 PM in Rm. 5317 in Sennott Square. Additional events can be found on our calendar. All are welcome!
 GoogleFormLink: "https://docs.google.com/forms/d/1eNwkgw6DWM_5nIuIv8EtAb1eZJRklYl8ELqJli43NIc/viewform"
 permalink: /contact/
 ---
