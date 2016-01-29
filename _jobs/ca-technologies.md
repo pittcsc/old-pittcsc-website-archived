@@ -1,7 +1,7 @@
 ---
 title: CA Technologies
 contact: Marianne Cocco
-phone: +1 631 342 2315
+phone: +1-631-342-2315
 last-updated: 2015-11-16 22:00:00
 website: ca.com/careers
 email: Marianne.Cocco@ca.com
