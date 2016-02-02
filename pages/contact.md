@@ -20,6 +20,6 @@ Want to get on our mailing list? Fill out our [Google Form](https://www.google.c
 
 <ul>
 {% for officer in site.data.officers %}
-  <li>{{officer.title}}: <a href=mailto:{{officer.email}}>{{officer.name}}</a></li>
+  <li>{{officer.title}}: <a href='mailto:{{officer.email}}'>{{officer.name}}</a></li>
 {% endfor %}
 </ul>
