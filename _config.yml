@@ -22,16 +22,6 @@ collections:
     output: true
     permalink: /jobs/:path/
 
-# Formatting
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - :no_intra_emphasis
-    - :autolink
-    - :superscript
-    - :footnotes
-highlighter: pygments
-
 # Assets
 sass:
   sass_dir: assets/css
