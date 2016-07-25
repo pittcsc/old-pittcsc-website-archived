@@ -1,12 +1,11 @@
 - title: President
-  name: Alex LaFroscia
-  email: alex@lafroscia.com
-  bio: "I'm a Sophomore CS student and front-end developer working with a company called Mysterious Trousers. Ever since getting an internship with them in high school, I've wanted to build a way for students to pass on their knowledge to other students and to teach people about how much fun programming can be. Last year I started talking about starting the Pitt CSC, and now here we are, less than a year later! I'm so excited to be starting on this venture with such a great group of people and am eager to help out anyone in any way I can."
-  portrait_path: "/assets/images/officers/alex.jpg"
-  twitter_username: alexlafroscia
+  name: Nicole Daniels
+  email: nld24@pitt.edu
+  bio: "I'm a senior CS major who is primarily interested in web development. When I'm not programming, I'm either rooting for the Patriots, channeling my inner Olivia Pope, agreeing that Jon Snow knows nothing, jamming on my bass guitar, playing video games, or DJing."
+  portrait_path: "/assets/images/officers/nicole.jpg"
   website:
-    url: http://alexlafroscia.com
-    name: alexlafroscia.com
+    url: http://www.github.com/nicoledaniels
+    name: Nicole's Github
 
 - title: Vice President
   name: Pete Mash
