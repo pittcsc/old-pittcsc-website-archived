@@ -1,47 +1,49 @@
 - title: President
   name: Nicole Daniels
   email: nld24@pitt.edu
-  bio: "I'm a senior CS major who is primarily interested in web development. When I'm not programming, I'm either rooting for the Patriots, channeling my inner Olivia Pope, agreeing that Jon Snow knows nothing, jamming on my bass guitar, playing video games, or DJing."
-  portrait_path: "/assets/images/officers/nicole.jpg"
+  bio: "I'm a senior CS major who enjoys web development. When I'm not programming, I'm either rooting for the Patriots, channeling my inner Olivia Pope, agreeing that Jon Snow knows nothing, exercising, drawing, playing video games, or jamming on my bass guitar."
+  portrait_path: "/assets/images/officers/nicole_github.jpeg"
+  twitter_username:
   website:
     url: http://www.github.com/nicoledaniels
     name: Nicole's Github
 
 - title: Vice President
-  name: Pete Mash
-  email: peter@mash.email
-  bio: "I'm a senior CS and Math major, with some experience in data science. I enjoy Ukrainian folk dance and eating food. The CSC has been really helpful in the development of my CS education outside of the classroom, and I'm excited to help connect others with that benefit."
-  portrait_path: "/assets/images/officers/pete.jpg"
-  twitter_username: pete_mash
+  name: JJ Naughton
+  email: jjnaughton93@gmail.com
+  bio: "Vice president, node.js lover."
+  portrait_path: "/assets/images/officers/JJ.jpg"
+  twitter_username: vonbearshark
   website:
-    url: http://github.com/PeterMash
-    name: Pete's Github
+    url: https://github.com/vonbearshark
+    name: JJ's Github
 
 - title: Business Manager
-  name: Joel Roggeman
-  email: joelroggeman@gmail.com
-  bio: "I'm a senior CS major primarily interested in web dev and compiler programming.  Other than coding, I enjoy running, baking, gaming, and music."
-  portrait_path: "/assets/images/officers/joel.jpg"
-  twitter_username: joelroggeman
+  name: John Linahan
+  email: linahan.john@gmail.com
+  bio: "Junior Computer Science Major, Business Manager"
+  portrait_path: "/assets/images/officers/John.jpg"
+  twitter_username:
   website:
-    url: http://github.com/jroggeman
-    name: Joel's GitHub
+    url: https://github.com/JohnLinahan
+    name: John's Github
 
-- title: Education Chair
-  name: Nicole Daniels
-  email: nld24@pitt.edu
-  bio: "I'm a junior CS major who loves front-end web development. When I'm not programming, I'm either rooting for the Patriots, channeling my inner Olivia Pope, agreeing that Jon Snow knows nothing, exercising, drawing, playing video games, or DJing."
-  portrait_path: "/assets/images/officers/nicole.jpg"
+- title: Outreach Coordinator
+  name: Ritwik Gupta
+  email: ritwikgupta@pitt.edu
+  bio: "Senior CS Major, Outreach coordinator"
+  portrait_path: "/assets/images/officers/Ritwik.jpg"
+  twitter_username:
   website:
-    url: http://www.github.com/ComicStix
-    name: Nicole's Github
+    url: https://github.com/RitwikGupta
+    name: Ritwik's Github
 
 - title: Events Chair
   name: Emily Pepke
   email: elpepke41@gmail.com
-  bio: "I'm a junior CS major who is interested in web dev and security, and other stuff I haven't actually checked out yet. When I'm not programming I like playing video games (WoW especially) and going on adventures. My goal aside from making the CSC as fun as possible with events, is to help mentor and guide those who need it."
+  bio: "I'm a senior CS major who is interested in front-end web development. When I'm not programming I like playing video games (WoW especially), looking at cat pictures, and going to the gym. I'm a dedicated yinzer, so sorry about my Pittsburghese. I'm on slack, twitter, facebook, and check my email obsessively, so if you ever need anything contact me anytime!"
   portrait_path:  "/assets/images/officers/emily.jpg"
   twitter_username: EmilyOfSuburbia
   website:
-      url: http://www.github.com/pepke41
-      name: Emily's Github
+      url: emilypepke.com
+      name: Emily's Website
