@@ -9,14 +9,14 @@
     name: Nicole's Github
 
 - title: Vice President
-  name: JJ Naughton
-  email: jjnaughton93@gmail.com
-  bio: "Vice president, node.js lover."
-  portrait_path: "/assets/images/officers/JJ.jpg"
-  twitter_username: vonbearshark
+  name: James Hahn
+  email: jrh160@pitt.edu
+  bio: "Vice president, Senior CS Major"
+  portrait_path: "/assets/images/officers/James.jpg"
+  twitter_username:
   website:
-    url: https://github.com/vonbearshark
-    name: JJ's Github
+    url: https://github.com/kingsman142/
+    name: James' Github
 
 - title: Business Manager
   name: John Linahan
