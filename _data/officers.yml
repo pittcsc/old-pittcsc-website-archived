@@ -39,11 +39,11 @@
     name: Ritwik's Github
 
 - title: Events Chair
-  name: Emily Pepke
-  email: elpepke41@gmail.com
-  bio: "I'm a senior CS major who is interested in front-end web development. When I'm not programming I like playing video games (WoW especially), looking at cat pictures, and going to the gym. I'm a dedicated yinzer, so sorry about my Pittsburghese. I'm on slack, twitter, facebook, and check my email obsessively, so if you ever need anything contact me anytime!"
-  portrait_path:  "/assets/images/officers/emily.jpg"
-  twitter_username: EmilyOfSuburbia
+  name: Sam Nigh
+  email: nighsam@gmail.com
+  bio: "Senior CS Major, Events Chair. GNU/Linux enthusiast, specifically Debian and Debian-based distros like Ubuntu and Linux Mint. Enjoys Raspberry Pis and raspberry pies."
+  portrait_path:  "/assets/images/officers/sam-profile.jpg"
+  twitter_username:
   website:
-      url: emilypepke.com
-      name: Emily's Website
+      url: spn11.github.io
+      name: Sam's GitHub
