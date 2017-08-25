@@ -1,8 +1,8 @@
 - title: President
-  name: Nicole Daniels
-  email: nld24@pitt.edu
-  bio: "I'm a senior CS major who enjoys web development. When I'm not programming, I'm either rooting for the Patriots, channeling my inner Olivia Pope, agreeing that Jon Snow knows nothing, exercising, drawing, playing video games, or jamming on my bass guitar."
-  portrait_path: "/assets/images/officers/nicole_github.jpeg"
+  name: John Linahan 
+  email: linahan.john@gmail.com
+  bio: "Junior Computer Science Major, Business Manager"
+  portrait_path: "/assets/images/officers/John.jpeg"
   twitter_username:
   website:
     url: http://www.github.com/nicoledaniels
@@ -20,23 +20,13 @@
 
 - title: Business Manager
   name: John Linahan
-  email: linahan.john@gmail.com
-  bio: "Junior Computer Science Major, Business Manager"
-  portrait_path: "/assets/images/officers/John.jpg"
+  email: daniel.zheng@pitt.edu 
+  bio: "Sophomore Computer Engineering Major, Business Manager"
+  portrait_path: "/assets/images/officers/Dan.jpg"
   twitter_username:
   website:
-    url: https://github.com/JohnLinahan
-    name: John's Github
-
-- title: Outreach Coordinator
-  name: Ritwik Gupta
-  email: ritwikgupta@pitt.edu
-  bio: "Senior CS Major, Outreach coordinator"
-  portrait_path: "/assets/images/officers/Ritwik.jpg"
-  twitter_username:
-  website:
-    url: https://github.com/RitwikGupta
-    name: Ritwik's Github
+    url: https://github.com/dzheng256
+    name: Dan's Github
 
 - title: Events Chair
   name: Sam Nigh
