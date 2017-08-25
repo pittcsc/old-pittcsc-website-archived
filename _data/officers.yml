@@ -2,7 +2,7 @@
   name: John Linahan 
   email: linahan.john@gmail.com
   bio: "Junior Computer Science Major, Business Manager"
-  portrait_path: "/assets/images/officers/John.jpeg"
+  portrait_path: "/assets/images/officers/John.jpg"
   twitter_username:
   website:
     url: http://www.github.com/nicoledaniels
@@ -19,10 +19,10 @@
     name: James' Github
 
 - title: Business Manager
-  name: John Linahan
+  name: Daniel Zheng
   email: daniel.zheng@pitt.edu 
   bio: "Sophomore Computer Engineering Major, Business Manager"
-  portrait_path: "/assets/images/officers/Dan.jpg"
+  portrait_path: "/assets/images/officers/Dan.png"
   twitter_username:
   website:
     url: https://github.com/dzheng256
