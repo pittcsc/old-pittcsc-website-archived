@@ -2,16 +2,12 @@
 layout: page
 title: Resources for Members
 lead: |
-  Sometimes it's hard to know where to find good sources to learn from.  Here's a list of tools and resources that we've checked out and know are good.
+  Sometimes it's hard to know where to find good sources to learn from.  Here's a list of tools and resources that we've investigated and believe are useful resources for learning!
 permalink: /resources/
 ---
-
-## Udemy
-
-The Pitt CSC has partnered with Udemy to provide some awesome
-resources for learning web development, mobile development, and more!
-
-- [Web Development](https://www.udemy.com/courses/Development/Web-Development/?p=1&price=price-free&view=grid)
-- [Programming Languages](https://www.google.com/calendar/embed?src=pittcsc%40gmail.com&ctz=America/New_York)
-- [Mobile App](https://www.google.com/calendar/embed?src=pittcsc%40gmail.com&ctz=America/New_York)
-- [The Pong Project](https://www.google.com/calendar/embed?src=pittcsc%40gmail.com&ctz=America/New_York)
+- [Linux Journey](https://linuxjourney.com/) 
+ Great introductory course to GNU/Linux, the bash shell, and basic networking principles, concepts, and standards!
+- [MIPS ISA Manual](http://chortle.ccsu.edu/assemblytutorial/) Helpful manual for learning MIPS for CS447 and related courses.
+- [Udemy: Courses from Web to Game Development](https://www.udemy.com/courses/Development/Web-Development/?p=1&price=price-free&view=grid) All kinds of free and paid courses!
+- [Host a Website on Github](https://pages.github.com/) Learn how to host a website on Github!
+- [Free Coding Bundle!](https://www.skillwise.com/sales/ultimate-freebie-coding-bundle) Ruby, Go, Javascript, jQuery, Java for mobile developers, and full stack web development!
