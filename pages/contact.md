@@ -2,7 +2,7 @@
 layout: page
 title: Contact Us
 lead: |
-  We meet every Monday at 7:00 PM in Sennott Square Room 5137! We also hold frequent workshops.  All are welcome!
+  We meet every Monday at 7:00 PM in Sennott Square Room 5317! We also hold frequent workshops.  All are welcome!
 GoogleFormLink: "https://docs.google.com/forms/d/1eNwkgw6DWM_5nIuIv8EtAb1eZJRklYl8ELqJli43NIc/viewform"
 permalink: /contact/
 ---
