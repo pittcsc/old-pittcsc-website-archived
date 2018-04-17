@@ -1,39 +1,45 @@
 - title: President
-  name: John Linahan 
-  email: linahan.john@gmail.com
-  bio: "Senior Computer Science Major, President"
-  portrait_path: "/assets/images/officers/John.jpg"
-  twitter_username:
+  name: Rohit Ganguly
+  email:
+  bio: "Sophomore Computer Science Major, President"
+  portrait_path: "/assets/images/officers/2018_rohit.jpg"
+  github:
+    url: https://github.com/rohit-ganguly
   website:
-    url: https://github.com/JohnLinahan
-    name: John's Github
+    url: http://rohitganguly.com/
 
 - title: Vice President
-  name: James Hahn
-  email: jrh160@pitt.edu
-  bio: "Vice president, Senior CS Major"
-  portrait_path: "/assets/images/officers/James.jpg"
-  twitter_username:
+  name: Mathew Varughese
+  email:
+  bio: "Sophomore Computer Science Major, Vice president"
+  portrait_path: "/assets/images/officers/2018_mat.jpg"
+  github:
+    url: https://github.com/varughese
   website:
-    url: https://github.com/kingsman142/
-    name: James' Github
+    url: http://matvarughese.me/
 
 - title: Business Manager
-  name: Daniel Zheng
-  email: daniel.zheng@pitt.edu 
-  bio: "Sophomore Computer Engineering Major, Business Manager"
-  portrait_path: "/assets/images/officers/Dan.png"
-  twitter_username:
+  name: Alex Zharichenko
+  email: azharichenko@gmail.com
+  bio: "Sophomore Computer Science and Statistics Major, Business Manager"
+  portrait_path: "/assets/images/officers/2018_alex.jpg"
+  github:
+    url: https://github.com/azharichenko
   website:
-    url: https://github.com/dzheng256
-    name: Dan's Github
+    url: http://thecompsciguy.com/
 
 - title: Events Chair
-  name: Sam Nigh
-  email: nighsam@gmail.com
-  bio: "Senior CS Major, Events Chair. GNU/Linux enthusiast. Enjoys Raspberry Pis and raspberry pies."
-  portrait_path:  "/assets/images/officers/sam-profile.jpg"
-  twitter_username:
-  website:
-      url: https://github.com/SPN11
-      name: Sam's GitHub
+  name: John Ference
+  email:
+  bio: "Sophomore Computer Science Major, Events Chair"
+  portrait_path:  "/assets/images/officers/2018_john.jpg"
+  github:
+    url: https://github.com/JohnF8
+
+- title: Outreach Coordinator
+  name: Hayden Stec
+  email:
+  bio: "Sophomore Computer Science Major, Outreach Coordinator"
+  portrait_path:  "/assets/images/officers/2018_hayden.png"
+  github:
+    url: https://github.com/haydenstec
