@@ -1,6 +1,6 @@
 - title: President
   name: Rohit Ganguly
-  email:
+  email: rohit.ganguly@pitt.edu
   bio: "Sophomore Computer Science Major, President"
   portrait_path: "/assets/images/officers/2018_rohit.jpg"
   github:
@@ -30,7 +30,7 @@
 
 - title: Events Chair
   name: John Ference
-  email:
+  email: jnf23@pitt.edu
   bio: "Sophomore Computer Science Major, Events Chair"
   portrait_path:  "/assets/images/officers/2018_john.jpg"
   github:
@@ -38,7 +38,7 @@
 
 - title: Outreach Coordinator
   name: Hayden Stec
-  email:
+  email: hrs24@pitt.edu
   bio: "Sophomore Computer Science Major, Outreach Coordinator"
   portrait_path:  "/assets/images/officers/2018_hayden.png"
   github:
