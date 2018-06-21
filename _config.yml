@@ -7,7 +7,7 @@ exclude:
   - CNAME
 permalink: /blog/:year/:month/:title
 timezone: America/New_York
-url: http://pittcsc.org
+url: https://pittcsc.org
 
 # Content
 defaults:
