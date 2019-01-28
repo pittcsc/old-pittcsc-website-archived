@@ -27,7 +27,7 @@
   github:
     url: https://github.com/azharichenko
   website:
-    url: http://thecompsciguy.com/
+    url: http://alexzharichenko.me/
 
 - title: Events Chair
   name: John Ference
@@ -41,6 +41,6 @@
   name: Hayden Stec
   email: hrs24@pitt.edu
   bio: "Sophomore Computer Science Major"
-  portrait_path:  "/assets/images/officers/2018_hayden.png"
+  portrait_path:  "/assets/images/officers/2018_hayden.jpg"
   github:
     url: https://github.com/haydenstec
